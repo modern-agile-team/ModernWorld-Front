@@ -13,3 +13,9 @@
 - `chore` : 빌드 업무 수정, 패키지 매니저 수정
 - `conflict`: 충돌 해결
 - `publish` : 페이지 퍼블리싱
+
+## 기술 스택
+- typescript, next.js
+
+## 브랜치 전략
+- feature/기능이름/(#이슈번호)
