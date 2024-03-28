@@ -1,0 +1,49 @@
+[33mcommit cc23a0f3f08d037c83434b02c4feb63ccf68a39a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m
+Author: dmsdnWkd1234 <gumman0620@gmail.com>
+Date:   Thu Mar 28 16:46:37 2024 +0900
+
+    스타일 컴포넌트 적용 코드 추가
+
+[33mcommit 284a1d64e422297fbef96135c611e9f0b9336b2f[m[33m ([m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: dmsdnWkd1234 <gumman0620@gmail.com>
+Date:   Thu Mar 28 16:41:53 2024 +0900
+
+    modify(#1): 폴더 구조 통합
+
+[33mcommit 0c2dc74582d2f0c81d3ced01979bf5b645867b8b[m
+Author: kimeunwoo <152486397+dmsdnWkd1234@users.noreply.github.com>
+Date:   Thu Mar 28 14:22:45 2024 +0900
+
+    Update issue templates
+    
+    이슈 생성시 기본 템플릿 생성입니다
+
+[33mcommit c246b07baaf2973e2d66043dea6af5386798874e[m
+Author: chamjin <playingme@naver.com>
+Date:   Wed Mar 27 20:53:33 2024 +0900
+
+    modify(#1): 재설정
+
+[33mcommit 425fe9bf4eb8eab1ce0870da23e404493961a8dd[m
+Author: chamjin <playingme@naver.com>
+Date:   Wed Mar 27 20:28:12 2024 +0900
+
+    feat(#1): 폴더 구조 설정
+
+[33mcommit af6fcccf1d44488554e3ab6efc152519a7711e5d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: chamjin <101967976+chamjin@users.noreply.github.com>
+Date:   Mon Mar 18 19:30:35 2024 +0900
+
+    Update README.md
+
+[33mcommit 4926768703e4771f3655126cca7fd3d457f53f4b[m
+Author: chamjin <101967976+chamjin@users.noreply.github.com>
+Date:   Mon Mar 18 17:08:17 2024 +0900
+
+    Update README.md
+
+[33mcommit 82056814ce7edd288510d87f954dc0191df320be[m
+Author: chamjin <101967976+chamjin@users.noreply.github.com>
+Date:   Mon Mar 18 17:06:07 2024 +0900
+
+    Initial commit
