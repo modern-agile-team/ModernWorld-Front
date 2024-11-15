@@ -8,8 +8,6 @@ import { UserAttendanceDataType } from '@/types/user';
 import { days } from '@/utils/daysConstants';
 import { EMOJIS } from '@/utils/emojiConstants';
 import { IMAGE } from '@/utils/image';
-import { useSetAtom } from 'jotai';
-import { isDailyCheckAtom } from '@/states/userAtoms';
 
 export default function CheckIn() {
   const [selectedEmoji, setSelectedEmoji] = useState<number | null>(null);
@@ -18,7 +16,6 @@ export default function CheckIn() {
   const [weekday, setWeekday] = useState(0);
   const [attendanceData, setAttendanceData] =
     useState<UserAttendanceDataType | null>(null);
-  const setIsDailyCheck = useSetAtom(isDailyCheckAtom);
 
   const getAttendance = async () => {
     const response = await USER.getAttendance();
@@ -40,7 +37,6 @@ export default function CheckIn() {
     if (selectedEmoji) {
       await USER.setAttendance(selectedEmoji);
       setIsCheck(true);
-      setIsDailyCheck(true);
     } else {
       alert('기분을 선택해주세요!');
     }

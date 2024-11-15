@@ -35,4 +35,3 @@ export const isLogoutModalAtom = atom(false);
 export const isAlarmModalAtom = atom(false);
 export const deleteAlarmAtom = atom<any>(null);
 export const isLikeModalAtom = atom(false);
-export const isDailyCheckAtom = atom(false);

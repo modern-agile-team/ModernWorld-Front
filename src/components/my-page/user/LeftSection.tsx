@@ -10,7 +10,6 @@ import {
   userCharacterChangeAtom,
   achievementColorAtom,
   userShoppingAtom,
-  isDailyCheckAtom,
 } from '@/states/userAtoms';
 
 export default function LeftSection() {
@@ -25,7 +24,6 @@ export default function LeftSection() {
   const userCharacterChange = useAtomValue(userCharacterChangeAtom);
   const achievementColor = useAtomValue(achievementColorAtom);
   const userShopping = useAtomValue(userShoppingAtom);
-  const isDailyCheck = useAtomValue(isDailyCheckAtom);
 
   const getUserInfo = async () => {
     const response = await USER.getUserInfo(getUserNo() as number);
@@ -34,7 +32,7 @@ export default function LeftSection() {
 
   useEffect(() => {
     getUserInfo();
-  }, [userCharacterChange, achievementColor, userShopping, isDailyCheck]);
+  }, [userCharacterChange, achievementColor, userShopping]);
 
   return (
     <>
